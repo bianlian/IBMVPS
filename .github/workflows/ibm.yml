@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '25 15 * * *'
+    - cron: '28 15 * * *'
 
 jobs:
   ibm-cloud-restart:
